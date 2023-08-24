@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggySignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="body">
+    <div id="prmt">
+        <h2 id="head">Empty Field</h2>
+        <p id="message">Please fill in the Name field and retry </p><br>
+        <button onclick="okay()">Ok</button>
+    </div>
+    <div id="prmt1">
+        <h2>Registration Sucessful</h2>
+        <p>Your PiggyVest account has been succuessfully registered. Please proceed to signin </p><br>
+        <button onclick="okayy()">Ok</button>
+    </div>
+    </div>
+    <div class="fill">
+        <div class="logo">
+            <img src="logo1.png">
+        </div>
+        <div class="contentinfo">
+            <div class="head">
+                <h2>Create a Secure Account</h2>
+                <a>Welcome to the future of Savings & Investments</a>
+            </div>
+            <div class="sec">
+                <b>Full Name</b><br>
+                <input id="name" type="text" placeholder="Full Name" class="name">
+            </div>
+            <div class="sec">
+                <b>Email Address</b><br>
+                <input id="add" type="text" placeholder="Email Address" class="name">
+            </div>
+            <div class="sec">
+                <b>Phone Number</b><br>
+                <input id="num" type="text" placeholder="Phone Number" class="name">
+            </div>
+            <div class="sec">
+                <b>Password</b><br>
+                <input id="pas" type="password" placeholder="Password" class="name">
+            </div>
+            <div class="sec">
+                <b>Referrer Phone or Promo Code (Optional)</b><br>
+                <input type="text" id="referral" oninput="verifycode()" placeholder="Referrer Phone or Promo Code" class="name">
+            </div>
+            <b id="show"></b>
+            <div class="sec">
+                <b>How Did You Hear About Us? (Optional)</b><br>
+                <input type="text" class="name">
+            </div>
+            <button onclick="signup()" class="create">CREATE ACCOUNT</button>
+
+        </div>
+        <div class="back" onclick="login()">
+            Already have an account? Log In
+        </div>
+        
+    </div>
+    
+</body>
+<script src="signup.js"></script>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+</head>
+<body>
+    <div class="sto">
+    <div class="bodd1">
+    <div class="bodd" id="bodd">
+    <div class="nav">
+        <div>
+            <h1 id="name">Ade,</h1>
+            <b>wash your hands, it's lunch time 🍛!</b>
+
+        </div>
+        <div>
+            <button class="user" id="userpp"><i class="icofont-user"></i></button>
+        </div>
+    </div>
+    <div class="navv">
+        <div onclick="refresh()">
+            <i class="icofont-refresh"></i>
+        </div>
+        <div>
+            <button onclick="addmoney()" class="quick">+ QUICK SAVE</button>
+        </div>
+
+    </div>
+    <div class="fil">
+        <div class="cho">
+        <div class="ui">
+            <i class="icofont-wallet"></i>
+            <div class="bal">
+                <p>Available Balance</p><br>
+                <b>#</b><b id="balance">500,000.00</b>
+            </div>
+
+        </div>
+        <div class="sent" id="mar">
+            <i class="icofont-chart-histogram"></i>
+            <div class="bal">
+                <p>Total Sent</p><br>
+                <b>#0.00</b>
+            </div>
+
+        </div>
+        <div class="recieved"  id="mar">
+            <i class="icofont-dollar"></i>
+            <div class="bal">
+                <p>Total Recieved</p><br>
+                <b>#500,000.00</b>
+            </div>
+
+        </div>
+        <div class="card" id="mar">
+            <i class="icofont-credit-card"></i>
+            <div class="bal">
+                <p>Card Deposit</p><br>
+                <b>#0.00</b>
+            </div>
+
+        </div>
+        <div class="airtime" id="mar">
+            <i class="icofont-brand-airtel"></i>
+            <div class="bal">
+                <p>Airtime Purchase</p><br>
+                <b>#0.00</b>
+            </div>
+
+        </div>
+        </div>
+    </div><br>
+    <b class="com">COMPLETE YOUR SETUP</b>
+    <div><img id="ev" src="complete2.png"></div><br>
+    <b>TO-DO LIST</b>
+    <div class="ban"><button class="ban1"></button><a>Verify your email address</a></div>
+    <div class="ban" id="ban"><button class="ban1"></button><a>Add your BVN or NIN now!</a></div>
+    <div class="ban" id="ban"><button class="ban1"></button><a>Tell us more about yourself</a></div>
+    <div class="ban" id="ban"><button class="ban1"></button><a>Securely add a valid debit card</a></div>
+    <div class="ban" id="ban"><button class="ban1"></button><a>Set your security question now! 🔐 🔐</a></div>
+    <div class="ban" id="ban"><button class="ban1"></button><a>Refer a friend, earn ₦1,000.00 bonus 🎉</a></div>
+    <div class="bany"><i class="icofont-like"></i><div><b>See your recent activities</b><br>See your most recent activities on PiggyVest</div></div>
+    <div class="bany"><i class="icofont-lock"></i><div><b>Create a safelock</b><br>Avoid spending temptations.Tap to create a safelock</div></div>
+    <div class="bany"><i class="ico">@</i><div><b>Link your Pocket App</b><br>Withdraw from your PiggyVest safer & faster 💜</div></div><br>
+    <b class="com">DOWNLOAD THE MOBILE APP</b><br>
+    <img src="apps.png"><img id="play" src="play.png"><br><br>
+    <b class="com">#MEETAPIGGYVESTSAVER: TOLANI AYENI</b>
+    <img id="fine" src="fine.png"><br>
+    <b class="com">RECENT ACTIVITIES</b><br>
+    <div class="ei">
+        <div><img id="logg" src="logg.png"></div>
+        <div class="jin">
+            <p>Just Registered</p><br>
+            <a id="time">1week ago</a>
+        </div><br>
+        
+    </div>
+    <div id="next">
+
+    </div>
+
+    </div>
+
+
+    <div class="downnav1">
+    <div class="downnav">
+    <div>
+        <button id="home"><i class="icofont-home"></i><br>Home</button>
+    </div>
+    <div onclick="transfer()">
+        <button><i class="icofont-refresh"></i><br>Transfer</button>
+    </div>
+    <div onclick="history()">
+        <button><i class="icofont-history"></i><br>Transactions</button>
+    </div>
+    <div onclick="settings()">
+        <button><i class="icofont-ui-settings"></i><br>settings</button>
+    </div>
+    </div>
+     </div>
+    </div>
+
+     <div id="addcash"><br><br>
+        <div>
+            <button onclick="backHM()" id="back"><i class="icofont-simple-left"></i></button> 
+        </div>
+        <p class="wah" onclick="addmoney()">Add Money</p>
+        <div class="bank1" onclick="tobank()">
+            <button class="bank">
+                <i class="icofont-bank-alt"></i>
+            </button>
+            <div class="ov">
+            <p><b>Bank Transfer</b><br>add money via mobile or internet bankin</p>
+            <i  class="icofont-simple-right"></i>
+            </div>
+        </div>
+        <div class="bank1" onclick="topup()">
+            <button class="bank">
+                <i class="icofont-credit-card"></i>
+            </button>
+            <div class="ov">
+            <p><b>Top-up with Card/Account</b><br>add money directly from your bank card</p>
+            <i class="icofont-simple-right"></i>
+            </div>
+        </div>
+        <div class="bank1">
+            <button class="bank">
+                <i class="icofont-briefcase"></i>
+            </button>
+            <div class="ov">
+            <p><b>Cash Deposit</b><br>Fund your account with nearby marchant</p>
+            <i class="icofont-simple-right"></i>
+            </div>
+        </div>
+        <div class="bank1">
+            <button class="bank">
+                <i class="icofont-money"></i>
+            </button>
+            <div class="ov">
+            <p><b>Request Money from Others</b><br>Send a request to any PiggyVest user</p>
+            <i class="icofont-simple-right"></i>
+            </div>
+        </div>
+        <div class="bank1">
+            <button class="bank">
+                <i class="icofont-qr-code"></i>
+            </button>
+            <div class="ov">
+            <div>
+            <p><b>Scan my QR Code</b><br>Show QR code to any PiggyVest user</p>
+            </div>
+            <div>
+            <i class="icofont-simple-right"></i>
+            </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="bankT"><br><br>
+        <div>
+            <button id="back" onclick="backPV()"><i class="icofont-simple-left"></i></button> 
+        </div>
+        <p class="wah">Bank Transfer</p><br>
+        <h4>Add money via bank transfer</h4><br>
+        <p>To add money to your PiggyVest Account,make a transfer to the account below.Funds should reflect instantly.</p>
+        <div class="wr">
+            <div class="wrr">
+            <button class="banky">
+                <i class="icofont-qr-code"></i>
+            </button>
+            <p>Bank<br><b>PiggyVest Digital Services Limited</b></p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="wrr">
+            <button class="banky">
+                123
+            </button>
+            <p>PiggyVest Account Number<br><b id="Account">70897765478</b></p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="wrr">
+                <button class="banky">
+                    <i class="icofont-user"></i>
+                </button>
+                <p>Name<br><b id="Uname">ADEPOJU TOLUWALASE OLUWAGB</b></p>
+                </div>
+                <button class="share">Share</button>
+
+
+        </div>
+        
+
+    </div>
+    <div id="topup"><br><br>
+        <div>
+            <button id="back" onclick="backTM()"><i class="icofont-simple-left"></i></button> 
+        </div><br>
+        <p class="wah">Top-up With Card/Account</p><br>
+        <p>Enter Amount</p><br>
+        <div class="amt">
+            #<input id="amount" type="text" placeholder="100.00-100,000.00">
+        </div><br>
+        for amount above #100,000.00 click here
+        <button class="share" onclick="makePayment()">
+            Next
+        </button>
+
+
+    </div>
+    </div>
+
+    
+   
+</body>
+<script src="homepage.js"></script>
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+</html>

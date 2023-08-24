@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="transfer.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+</head>
+<body>
+    <div class="bodd">
+    <div class="whole">
+        <div><b>Transfer</b><br><a>Lets see how well you are doing.</a></div>
+        <button class="user" id="illt"><i class="icofont-user"></i></button>
+    </div><br>
+    <div class="bal">
+        <p>Total Balance</p>
+        <b>#</b><b id="balance">#0.00</b>
+    </div><br>
+    <b class="com">COMPLETE YOUR SETUP</b>
+    <div><img id="ev" src="complete2.png"></div>
+    <div class="wrr" onclick="Paccount()">
+        <button class="banky">
+                <i class="icofont-ui-reply"></i>
+        </button>
+            <div><b>To PiggyVest Account</b><br><p>Free instant transfers with zero issues</p></div>
+            <i class="icofont-simple-right"></i>
+    </div>
+    <div class="wrr">
+        <button class="banky">
+                <i class="icofont-bank"></i>
+        </button>
+            <div><b>To Other Bank Accounts</b><br><p>Transfers to other bank accounts are free</p></div>
+            <i class="icofont-simple-right"></i>
+    </div>
+    <div class="wrr" onclick="airtime()">
+        <button class="banky">
+            <i class="icofont-iphone"></i>
+        </button>
+            <div><b>Buy Airtime Now</b><br><p>Buy Airtime now and get cashback on your recharge</p></div>
+            <i class="icofont-simple-right"></i>
+    </div>
+    <div class="flex">
+    <div class="ofall">
+        <i class="icofont-bank"></i><br><br>
+        <b>Piggybank</b><br><br>
+        <p>Strict savings automatically. Daily, weekly or Monthly. 10% p.a</p><br>
+        <b>#0.00</b>
+
+    </div>
+    <div class="ofall" id="ofall">
+        <i class="icofont-wallet"></i><br><br>
+        <b>Flex Naira</b><br><br>
+        <p>Flexible savings for emergencies. Free transfers, withdrawals etc. 8% p.a</p><br>
+        <b>#0.00</b>
+
+    </div>
+    </div>
+    <div class="flex">
+        <div class="ofall" id="of">
+            <i class="icofont-lock"></i><br><br>
+            <b>Safelock</b><br><br>
+            <p>Lock funds to avoid temptations. Upfront interest. Up to 13% p.a</p><br>
+            <b>#0.00</b>
+    
+        </div>
+        <div class="ofall" id="all">
+            <i class="icofont-brand-target"></i><br><br>
+            <b>Targets</b><br><br>
+            <p>Reach your unique individual saving goals. 9% p.a</p><br>
+            <b>#0.00</b>
+    
+        </div>
+    </div>
+    </div>
+    <div class="downnav1">
+        <div class="downnav">
+        <div>
+            <button><i class="icofont-home" onclick="backhom()"></i><br>Home</button>
+        </div>
+        <div onclick="transfer()">
+            <button id="home"><i class="icofont-refresh"></i><br>Transfer</button>
+        </div>
+        <div onclick="history()">
+            <button><i class="icofont-history"></i><br>Transactions</button>
+        </div>
+        <div onclick="settings()">
+            <button><i class="icofont-ui-settings"></i><br>settings</button>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="tran">
+        <div id="bodiu"></div>
+        <div id="prmt">
+            <h2 id="head">Empty Field</h2>
+            <p id="message">Please enter the amount you want to send and retry </p><br>
+            <button onclick="oka()">Ok</button>
+        </div>
+        <div class="addcash"><br><br>
+            <div>
+                <button id="back" onclick="backTF()"><i class="icofont-simple-left"></i></button> 
+            </div><br>
+            <p class="wah"><b>Transfer To PiggyVest Account</b></p><br>
+            <hr><br>
+            <b>Recipient Account</b><br><br>
+            <input type="text" id="accit" oninput="verifyaccount()" placeholder="PiggyVest Account No">
+            <div><br>
+                <a class="alt">Beneficiaries</a><br>
+                <div id="bank1" onclick="proceed()">
+                    <button class="bank">
+                        <i class="icofont-user"></i>
+                    </button>
+                    <div class="ov">
+                    <b id="nim">ADEPOJU TOLUWALASE</b>
+                    <p id="accy">8025402120</p>
+                    <!-- <i class="icofont-simple-right"></i> -->
+                    </div>
+                </div>
+            </div>
+        
+
+    </div>
+    
+    <div id="trany">
+        <div id="bodiyt"></div>
+        <div id="prmtoo">
+            <h2 id="head">Empty Field</h2>
+            <p id="message">Please enter the amount you want to send and retry </p><br>
+            <button onclick="okay()">Ok</button>
+        </div>
+        <div id="bodi1"></div>
+        <div id="prmto1">
+            <h2 id="heady">Empty Field</h2>
+            <p id="messagey">Please enter the amount you want to send and retry </p><br>
+            <button onclick="okayiu()">Ok</button>
+        </div>
+        <div class="addcash"><br><br>
+            <div>
+                <button id="back" onclick="backAS()"><i class="icofont-simple-left"></i></button> 
+            </div><br>
+            <p class="wah">Transfer To PiggyVest Account</p><br>
+            <hr><br>
+            <div class="top">
+                <div>
+                <button>
+                    <i class="icofont-user"></i>
+                </button><br><br>
+                <b id="nimi">ADEPOJU TOLUWALASE OLUWA</b><br><br>
+                <P id="accyy">07064456565</P>
+                </div>
+            </div><br><br>
+            <a class="a" >Enter Amount</a><br><br>
+            <input type="text" id="sentAmount" placeholder="#10.00 - 5,000,000.00"><br><br>
+            <a class="a">Remark</a><br><br>
+            <input type="text" placeholder="What's this for? (Optional)">
+            <button class="con" onclick="confi()">confirm</button>
+        
+    </div>
+    
+    <div id="bodiy">
+    <div id="soil"><br>
+        <button id="back" onclick="backyy()"><i class="icofont-simple-left"></i></button><br>
+        <p>You are about to send #<a id="min">500</a>.00 to <a id="nimt">ADEPOJU TOLUWALASE</a></p><br>
+        <div class="fee">
+            <div class="dil">
+                <p>Amount</p>
+                <p>#<a id="miny">500</a>.00</p>
+            </div>
+            <div class="dil" id="dil">
+                <p>Fee</p>
+                <p>0.00</p>
+            </div>
+            <div class="dil" id="dil">
+                <p>Total amount</p>
+                <p>#<a id="minyy">500</a>.00</p>
+            </div>
+
+        </div>
+        <div class="bank1">
+            
+            <button class="bank">
+                <i class="icofont-wallet"></i>
+            </button>
+            <div class="ov" id="ov">
+            <b class="cce">Balance(#<a id="vee">4,500</a>.00)</b>
+            <button class="conf">
+                <!-- <i id="dd" class="icofont-ui-press"></i> -->
+            </button>
+            <!-- <i class="icofont-simple-right"></i> -->
+            </div>
+            
+        </div>
+        <button class="con" onclick="pay()">Payment <a id="minyyy">500</a>.00</button>
+
+    </div>
+    </div>
+    <div id="bodi12"></div>
+        <div id="prmto12">
+            <h2 id="heady">Empty Field</h2>
+            <p id="messagey">Please enter all PIN digits and retry </p><br>
+            <button onclick="under()">Ok</button>
+        </div>
+    <div id="bod22"></div>
+        <div id="prmt22">
+            <h2 id="head">Transaction Pin not set</h2>
+            <p id="message">You are yet to set your transaction pin.Would you like to proceed to settings? </p><br>
+            <button onclick="yes()">YES</button>  <button onclick="no()">NO</button>
+        </div>
+
+        <div id="bod211"></div>
+        <div class="wt">
+            <div id="ldd"><i class="icofont-ui-laoding"></i></div>
+            
+        </div>
+
+    <div id="soily">
+        <div id="bodiv"></div>
+        <br>
+        <div>
+            <button id="back" onclick="backP()"><i class="icofont-simple-left"></i></button> 
+        </div><br>
+        <div class="pin2">
+        <p>Enter Payment Pin </p><br>
+        <div class="pin1">
+            <input id="firstpin" oninput="moveToNext(this, 'secondpin')" class="pin" type="password">
+            <input id="secondpin" oninput="moveToNext(this, 'thirdpin')" class="pin" type="password">
+            <input id="thirdpin" oninput="moveToNext(this, 'fourthpin')" class="pin" type="password">
+            <input id="fourthpin" oninput="validatePin()" class="pin" type="password">
+        </div><br>
+        <p class="fr">Forgot Payment Pin?</p>
+        
+        </div><br>
+        <div class="nums1">
+            <button class="nums">1</button>
+            <button class="nums">2</button>
+            <button class="nums">3</button>
+        </div>
+        <div class="nums1">
+            <button class="nums">4</button>
+            <button class="nums">5</button>
+            <button class="nums">6</button>
+        </div>
+        <div class="nums1">
+            <button class="nums">7</button>
+            <button class="nums">8</button>
+            <button class="nums">9</button>
+        </div>
+        <div class="nums1">
+            <button class="nums" id="nums"></button>
+            <button class="nums">0</button>
+            <button class="nums" id="nums"><i class="icofont-delete"></i></button>
+        </div>
+        
+
+    </div>
+    <div id="trvv">
+        <div class="addcash"><br><br>
+            <div>
+                Done 
+            </div><br>
+            
+            <div class="top">
+                <div>
+                <button class="dy">
+                    <i class="icofont-verification-check"></i>
+                </button><br><br>
+                Transfer successful<br><br>
+                <P><b>#<c id="amitt">500</c>.00</b></P>
+                </div>
+            </div>
+        </div>
+        <div >
+            <button class="shr" onclick="share()">
+                <i class="icofont-share-alt"></i><br><br>
+                Share Receipt
+            </button>
+            <button class="shr" id="shr">
+                <i class="icofont-users"></i><br><br>
+                Add to favourite
+            </button>
+        </div>
+
+    </div>
+    <div id="pdfImageModal"><br><br>
+        <div onclick="back()">
+            <button class="back" onclick="openPDFImageModal()"><i class="icofont-simple-left"></i></button> 
+        </div><br>
+        <button class="moon" onclick="generateImage()">PDF</button><br><br>
+        <button class="moon" onclick="generatePDF()">Image</button>
+
+    </div>
+
+    <div id="bankT"><br>
+        <div onclick="back()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br><br>
+        <p class="wah">Transaction Details</p><br>
+        <div class="details">
+            <div>
+            <button><i class="icofont-ui-v-card"></i></button> <a id="receipt-transaction-type"></a><br><br>
+            Order amount
+            </div>
+            <div class="wee">
+                <b>#<c id="receipt-amount">#500,000</c>.00</b><br><br>
+                <a class="a">#<c id="receipt-at">500,000</c>.00</a>
+            </div>
+        </div><br><br>
+        <center><button id="dt">Aug 5th, 17:58</button></center><br><br>
+        <div class="details">
+            <div>
+            Status<br><br>
+            VAT<br><br>
+            Sender<br><br>
+            Recipient<br><br>
+            Recipient Account<br><br>
+            Remark<br><br>
+            Sender Account<br><br>
+            Paid with<br><br>
+            SessionID
+            </div>
+            <div class="wee">
+                SUCCESS<br><br>
+                #0.00<br><br>
+                <c id="sender-name">ADEPOJU TOLUWALASE</c><br><br>
+                <c id="receipient-name"></c><br><br>
+                <c id="receipient-account"></c><br><br>
+                <c id="usedfor">nill</c><br><br>
+                <c id="sender-account"></c><br><br>
+                Balance Payment<br><br>
+                <c id="reference">53454544546474474474</c>
+            </div>
+        </div>
+     
+                <button class="share" onclick="openPDFImageModal()">Share Receipt</button>
+
+
+        </div>
+        
+
+    </div>
+    <div id="reciept-content">
+        <b id="jiny" class="mmy">Transaction Reciept</b><br><br>
+        <div class="tyu">
+        <h1 id="cft"></h1><br>
+        <b id="jiny">SUCCESS</b><br>
+        <p id="ddt"></p>
+        </div>
+        <br>
+        <hr><br>
+        <div class="details">
+        <div>
+            Transaction type<br><br><br>
+            Recipient Details<br><br><br>
+            Sender Details<br><br><br>
+            Transaction Reference<br><br>
+            
+        </div>
+        <div class="wee">
+            <c id="mtype">ADEPOJU TOLUWALASE</c><br><br><br>
+            <b id="repname"></b><br>
+            <c id="recpacc"></c><br><br>
+            <b id="senname"></b><br>
+            <c id="senacc"></c><br><br>
+            <c id="referency">53454544546474474474</c>
+        </div>
+        </div>
+
+    </div>
+
+
+
+    
+</body>
+<script src="transfer.js"></script>
+</html>

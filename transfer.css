@@ -1,0 +1,966 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 25px;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* padding: 15px; */
+    font-family: sans-serif;
+}
+.downnav{
+    padding: 12px;
+    position:sticky;
+    top: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+}
+#home i{
+    color: rgb(4, 93,212);
+}
+#home{
+    color: rgb(4, 93,212);
+}
+.downnav button{
+    font-size: 15px;
+    border: none;
+    background: none;
+}
+.downnav button i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.whole b{
+    font-size: 27px;
+}
+#back{
+    background: none;
+    border: none;
+}
+.whole a{
+    color: rgba(0, 0, 0, 0.4);
+}
+.bal{
+    width: 98%;
+    height: 85px;
+    border: 1px solid rgb(204, 240, 254);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.bal b{
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 40px;
+    color:rgb(4, 93, 212);
+}
+#ev{
+    margin-top: 10px;
+    width: 350px;
+}
+.com{
+    font-size: 12px;
+    padding-top: 20px;
+}
+.wrr{
+    display: flex;
+    border: 1px solid rgb(204, 240, 254);
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.banky{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: azure;
+    border: none;
+    color: rgb(4, 93, 212);
+}
+.wrr div{
+    margin-left: 10px;
+}
+.wrr div p{
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.wrr b{
+    font-size: 20px;
+}
+.icofont-simple-right{
+    font-size: 30px;
+}
+.tlogo{
+    width: 50px;
+    height: 50px;
+}
+.ofall{
+    width: 160px;
+    height: 250px;
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(204, 240, 254);
+    border: none;
+    margin-top: 20px;
+}
+#of{
+    background-color: rgb(241, 236, 254);
+}
+#of i{
+    color: rgb(117, 63, 246);
+}
+#of b{
+    color: rgb(117, 63, 246);
+}
+.ofall i{
+    font-size: 28px;
+    color: rgb(4, 93, 212);
+}
+.ofall b{
+    font-size: 20px;
+    color: rgb(4, 93, 212);
+}
+.ofall p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flex{
+    display: flex;
+}
+#ofall{
+    margin-left: 10px;
+    background-color: rgb(255, 234, 245);
+}
+#all{
+    margin-left: 10px;
+    background-color: rgb(220, 255, 235);
+
+}
+#all i{
+    color: rgb(39, 174, 96);
+}
+#all b{
+    color: rgb(39, 174, 96);
+
+}
+#ofall i{
+    color: rgb(231, 67, 168);
+}
+#ofall b{
+    color: rgb(231, 67, 168);
+}
+/* jsjsjsjssj */
+#tran{
+    width: 94%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+    overflow: hidden;
+
+    /* display: none; */
+}
+.bodd{
+    padding-right: 12px;
+    max-height: 760px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-left: 15px;
+}
+
+.icofont-simple-left{
+    font-size: 25px;
+}
+.wah{
+    font-size: 22px;
+    text-align: center;
+}
+.addcash input{
+    width: 90%;
+    height: 30px;
+    padding:10px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(4, 93, 212);
+}
+#bank1{
+    width: 92%;
+    height: 65px;
+    padding-left: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color: lightblue;
+    display: flex;
+    visibility: hidden;
+}
+.bank1{
+    margin-top: 30px;
+    display: flex;
+}
+.bank1 b{
+    margin-left: 15px;
+}
+.alt{
+    font-weight: 700;
+    font-size: 18px;
+}
+#bank1 .ov{
+    margin-left: 10px;
+}
+#bank1 b{
+    font-size: 20px;
+}
+.ov p{
+    margin-top: 10px;
+}
+#prmt{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+      z-index: 2;
+}
+#prmto1{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+      /* z-index: 2; */
+}
+#prmto1 button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+#prmt button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+.bank{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid blue;
+    color: blue;
+    background: none;
+    border-radius: 100%;
+}
+.addcash b{
+    font-size: 20px;
+}
+/* jdjdjdj */
+#trany{
+    width: 94%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+
+    /* display: none; */
+}
+#trvv{
+    width: 98%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+
+    /* display: none; */
+
+}
+.top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.top div{
+    text-align: center;
+}
+.top p{
+    font-size: 20px;
+}
+.top button{
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    color: blue;
+    background-color: lightblue;
+}
+.a{
+    font-size: 19px;
+    font-weight: 500;
+}
+.con{
+    width: 93%;
+    height: 50px;
+    background-color: rgb(4, 93, 212);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: white;
+}
+/* lllllll */
+#soil{
+    width: 95%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    bottom: 0;
+    right: -1500px;
+    transition: 1s;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    /* z-index: 2; */
+    
+}
+.fee{
+    width: 88%;
+    border-radius: 15px;
+    height: 100px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ov{
+    display: flex;
+    justify-items: space-between;
+}
+.cce{
+    margin-top: 13px;
+}
+.conf{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.bodd::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+}
+#dd{
+    font-size: 10px;
+}
+.dil{
+    display: flex;
+    justify-content: space-between;
+}
+#dil{
+    margin-top: 10px;
+}
+.pin{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    outline: rgb(4, 93, 212);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15px;
+}
+.pin1{
+    display: flex;
+    justify-content: center;
+}
+.pin2{
+    margin: auto;
+    text-align: center;
+}
+.nums{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+#nums{
+    border: none;
+    background: none;
+}
+.nums1{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.shr{
+    height: 80px;
+    border: none;
+    background-color: lightgray;
+    width: 150px;
+    margin-top: 50px;
+}
+.fr{
+    color: blue;
+}
+.shr i{
+    font-size: 25px;
+    color: rgb(117, 63, 246);
+}
+#shr{
+    margin-left: 20px;
+}
+.dy{
+    font-size: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+#bodiy{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+}
+#bodiu{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+
+}
+#bod22{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+
+}
+#prmt22{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+}
+#prmt22 button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+#bodi12{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+}
+#prmto12{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+}
+#prmto12 button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+#bodiyt{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    /* background-color: green; */
+    display: none;
+    overflow-x: hidden;
+}
+#prmtoo{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+      z-index: 2;
+
+}
+#prmtoo button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+#bodie{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    /* background-color: green; */
+    display: none;
+    overflow-x: hidden;
+}
+#bodi1{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    /* background-color: green; */
+    display: none;
+    overflow-x: hidden
+}
+#bodiv{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+}
+#soily{
+    width: 95%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    bottom: 0;
+    right: -1500px;
+    transition: 1s;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    z-index: 2;
+}
+#ppt{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#bod211{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    /* background-color: green; */
+    display: none;
+    overflow-x: hidden;
+    z-index: 9;
+}
+#ldd{
+    /* background-color: yellow; */
+    position: absolute;
+    left:170px ;
+    top: 310px;
+    animation-name: ldd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    display: none;
+    font-size: 70px;
+    color: white;
+}
+.icofont-ui-laoding{
+    font-size: 70px;
+    color: white;
+}
+#bankT{
+    font-family: sans-serif;
+    width:93%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    display: none;
+}
+.share{
+    width: 98%;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 700;
+    border: 1PX solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: green;
+    color: white;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details button{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 17px;
+    color: green;
+    border: none;
+    background-color: lightgreen;
+}
+.details a{
+    font-size: 18px;
+}
+.wee{
+    text-align: end;
+}
+.a{
+    margin-left: 60px;
+}
+.details b{
+    font-size: 30px;
+    color: red;
+}
+#dt{
+    background: none;
+    margin: auto;
+    font-size: 19px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+#pdfImageModal{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: none;
+    z-index: 10;
+}
+#reciept-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: none;
+    z-index: 11;
+    padding: 20px;
+    padding-top: 50px;
+
+}
+.tyu{
+    text-align: center;
+}
+.jiny{
+    color: blue;
+    font-weight: 600;
+    font-size: 19px;
+}
+.mmy{
+    justify-content: end;
+}
+.back{
+    border: none;
+    background: none;
+}
+#dt{
+    font-weight: 700;
+    font-size: 15px;
+}
+#pdfImageModal .moon{
+    width: 90%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    color: blue;
+    margin: 10px;
+    background-color: lightgray;
+    border: none;
+}
+#ppt{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+@keyframes ldd{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+@media (max-width: 390px) {
+    body{
+        overflow-x: hidden;
+    }
+    .name{
+        width: 300px;
+    }
+    .create{
+        width: 335px;
+    }
+}
+@media (max-width: 375px) {
+   .bodd{
+    max-height: 580px;
+   }
+   #play{
+    margin-left: 30px;
+   }
+}
+@media (width: 414px) {
+    .bodd{
+        max-height: 810px;
+       }
+    
+}
+@media (width: 412px) {
+    .bodd{
+        max-height: 810px;
+       }
+    
+}
+@media (width: 360px) {
+    .bodd{
+        max-height: 650px;
+       }
+    
+}
+@media (width: 540px) {
+    .bodd{
+        max-height: 640px;
+       }
+    
+}
+@media (width: 820px) {
+    .bodd{
+        max-height: 1100px;
+       }
+              #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 98%;
+    }
+    #bankT{
+        width: 98%;
+    }
+}
+@media (width: 768px) {
+    .bodd{
+        max-height: 920px;
+       }
+       #addcash{
+        width: 98%;
+    }
+    #bankT{
+        width: 98%;
+    }
+    
+}
+@media (width: 912px) {
+    .bodd{
+        max-height: 1280px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+   
+    
+}
+@media (width: 1280px) {
+    #bodd{
+        max-height: 700px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+    #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+    
+}
+@media (width: 1024px) {
+    #bodd{
+        max-height: 520px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+}
+@media (max-width: 1686px) {
+    #body{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtime</title>
+    <link rel="stylesheet" href="airtime.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+</head>
+<body>
+    <div id="bodiu"></div>
+    <div class="mint" onclick="norm()">
+        <button><i class="icofont-simple-left"></i></button> 
+    </div><br>
+    <p class="wah">Airtime</p><br>
+    <div class="hd">
+        <div onclick="dropdown()">
+        <c id="imgi"><img src="mtn.png"></c> <c id="c"><i class="icofont-caret-down"></i></c>
+        </div>
+        <input type="text" id="rechargenum">
+        <div>
+            <i class="icofont-simple-down"></i>
+            <button><i id="user" class="icofont-user"></i></button>
+        </div>
+    </div><br>
+    <hr><br>
+    <div class="cash">
+        <b>Top up</b><br><br>
+        <button onclick="fifty(50)"><b>#50</b><br>
+            <a>#1.5 cashback</a>
+        </button>
+        <button onclick="fifty(100)"><b>#100</b><br>
+            <a>#3 cashback</a>
+        </button>
+        <button onclick="fifty(200)"><b>#200</b><br>
+            <a>#6 cashback</a>
+        </button>
+        <button class="but" onclick="fifty(500)"><b>#500</b><br>
+            <a>#15 cashback</a>
+        </button>
+        <button class="but" onclick="fifty(1000)"><b>#1000</b><br>
+            <a>#30 cashback</a>
+        </button>
+        <button class="but" onclick="fifty(2000)"><b>#2000</b><br>
+            <a>#60 cashback</a>
+        </button><br><br>
+        <div class="ppt">
+            <b>#</b> <input type="text" placeholder="50 - 50,000" id="amountrechar"> <button id="pay" onclick="proceedd()">Pay</button>
+        </div>
+    </div>
+    <div class="dop" id="dop">
+        <div class="dop1">
+            <div class="dop2" onclick="airtel()">
+                <div class="dop3">
+                <img class="net" src="airtel.png">
+                <p>Airtel</p>
+                </div>
+                <div>
+                    <button class="check" id="but">
+                    <i id="ico" class="icofont-check"></i>
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="dop2" onclick="mobil()">
+                <div class="dop3">
+                <img class="net" src="9mobile.png">
+                <p>9mobile</p>
+                </div>
+                <div>
+                    <button class="check" id="buty">
+                        <i id="ico" class="icofont-check"></i>
+                    </button>
+                </div>
+            </div><hr>
+            <div class="dop2" onclick="glo()">
+                <div class="dop3">
+                <img class="net" src="glo.jpg">
+                <p>Glo</p>
+                </div>
+                <div>
+                    <button class="check" id="butyy">
+                        <i id="ico" class="icofont-check"></i>
+                    </button>
+                </div>
+            </div><hr>
+            <div class="dop2" onclick="mtn()">
+                <div class="dop3">
+                <img class="net" src="mtn.png">
+                <p>MTN</p>
+                </div>
+                <div>
+                    <button class="check" id="butyyy">
+                        <i id="ico" class="icofont-check"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="confirm" id="confirm"><br>
+        <div onclick="back()">
+            <button class="ico"><i class="icofont-simple-left"></i></button> 
+        </div>
+        <p class="wah"><b>#<c id="amtt">50</c>.00</b></p><br>
+        <div class="soi">
+            <div>
+                <a>Product Name</a><br><br>
+                <a>Amount</a><br><br>
+                <a>Cashback to earn</a><br><br>
+                <a>Cashback(#3.00)</a>
+            </div>
+            <div class="fil">
+                <a><c id="dimg"><img src="mtn.png"></c> Airtime</a><br><br>
+                <a><b>#<c id="amtty">50</c>.00</b></a><br><br>
+                <a><b>+#1.50</b></a><br><br>
+                <a><b>-#3.00</b></a>
+            </div>
+        </div>
+        <hr>
+        <p>Payment Method</p><br>
+        <div class="fyb">
+            <div>
+            <button>
+                <i class="icofont-wallet"></i>
+            </button>
+            <b>Balance</b>(#<c id="balance">943</c>.00)
+            </div>
+            <div class="jin">
+                <i class="icofont-simple-right"></i>
+            </div>
+        </div>
+        <button class="con" onclick="pay()">Pay</button>
+
+
+    </div>
+    <div id="bodi12"></div>
+        <div id="prmto12">
+            <h2 id="heady">Empty Field</h2>
+            <p id="messagey">Please enter all PIN digits and retry </p><br>
+            <button onclick="under()">Ok</button>
+        </div>
+        <div id="bod211"></div>
+        <div class="wt">
+            <div id="ldd"><i class="icofont-ui-laoding"></i></div>
+            
+        </div>
+    <div class="soil" id="soil"><br>
+        <div class="mint" onclick="bacck()">
+            <button><i class="icofont-simple-left"></i></button> 
+        </div><br>
+        <div class="pin2">
+        <p>Enter Payment Pin </p><br>
+        <div class="pin1">
+            <input id="firstpin" oninput="moveToNext(this, 'secondpin')" class="pin" type="password">
+            <input id="secondpin" oninput="moveToNext(this, 'thirdpin')" class="pin" type="password">
+            <input id="thirdpin" oninput="moveToNext(this, 'fourthpin')" class="pin" type="password">
+            <input id="fourthpin" oninput="validatePin()" class="pin" type="password">
+
+        </div><br>
+        <p class="fr">Forgot Payment Pin?</p>
+        
+        </div><br>
+        
+        
+
+    </div>
+    <div id="trvv">
+        <div class="addcash"><br><br>
+            <div onclick="done()">
+                Done 
+            </div><br>
+            
+            <div class="top">
+                <div>
+                <button class="dy">
+                    <i class="icofont-verification-check"></i>
+                </button><br><br>
+                successful<br><br>
+                <P><b>#<c id="amitt">50</c>.00</b></P>
+                </div>
+            </div>
+        </div>
+        <div >
+            <button class="shr" onclick="share()">
+                <i class="icofont-share-alt"></i><br><br>
+                Share Receipt
+            </button>
+            
+        </div>
+
+    </div>
+
+    
+</body>
+<script src="airtime.js"></script>
+</html>

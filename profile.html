@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="bodd"><br>
+        <h1>My Account</h1>
+        <a>Adepoju Toluwalase</a><br><center>
+        <input class="file" id="filey" type="file"><br><br>
+        <b class="ade">Adeoju Toluwalase</b></center><br>
+        <div class="box" onclick="editProfile()">
+            <i class="icofont-user"></i>
+            <b>Edit Profile</b>
+
+        </div><br>
+        <div class="box">
+            <i class="icofont-stock-mobile"></i>
+            <b>Today's Rates</b>
+
+        </div>
+        <div id="bodiu"></div>
+        <div id="prmt">
+            <h2 id="head">Enter your Transaction Pin below</h2>
+            <input id="pin" type="password" placeholder= "****"><br><br>
+            <button onclick="oka()">set</button>
+        </div>
+        <div id="body"></div>
+        <div id="prmt1">
+            <h2>Transaction Pin already set</h2>
+            <p>Your Transaction pin has already been set.Do you wish to change it?  </p><br>
+            <button onclick="okayy()">YES</button> <button onclick="okai()">NO</button>
+        </div>
+        <div id="biv"></div>
+        <div id="prt">
+            <h2 id="head">Enter your New Transaction Pin below</h2>
+            <input id="pinnew" type="password" placeholder= "****"><br><br>
+            <button onclick="okk()">set</button>
+        </div>
+        <br>
+        <div class="box" onclick="setpin()">
+           
+            <i class="icofont-lock"></i>
+            <b>Set Transaction Pin</b>
+
+        </div><br>
+        <div class="box" onclick="Referfriends()">
+            <i class="icofont-share"></i>
+            <b>Refer & Earn #1,000.00</b>
+
+        </div><br>
+        <div class="box">
+            <i class="icofont-credit-card"></i>
+            <b>My Card & Bank settings</b>
+
+        </div><br>
+        <div class="box">
+            <i class="icofont-ui-message"></i>
+            <b>My story</b>
+
+        </div><br>
+        <div class="box">
+            <i class="icofont-notebook"></i>
+            <b>View PiggyVest Library</b>
+
+        </div><br>
+        <div class="box">
+            <i class="icofont-ui-call"></i>
+            <b>Contact Us</b>
+
+        </div><br>
+        <div class="box" id="box" onclick="logout()">
+            <i class="icofont-logout"></i>
+            <b>Log Out</b>
+
+        </div>
+        
+
+    </div>
+
+    <div class="downnav1">
+        <div class="downnav">
+        <div onclick="homey()">
+            <button ><i class="icofont-home"></i><br>Home</button>
+        </div>
+        <div onclick="transfer()">
+            <button><i class="icofont-refresh"></i><br>Transfer</button>
+        </div>
+        <div onclick="history()">
+            <button><i class="icofont-history"></i><br>Transactions</button>
+        </div>
+        <div>
+            <button id="home"><i class="icofont-ui-settings"></i><br>settings</button>
+        </div>
+        </div>
+    </div>
+    <div id="bankT"><br>
+        <div onclick="noneback()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br><br><br>
+        <b>Change your avatar</b><br>
+        <input id="file" onchange="upload()" type="file"><br><br>
+        <div class="inp">
+            <p><b>Full Name</b></p>
+            <input id="NewName" type="text">
+        </div><br>
+        <div class="inp">
+            <p><b>Email Address</b></p>
+            <input id="NewAdd" type="text">
+        </div><br>
+        <div class="inp">
+            <p><b>Phone Number</b></p>
+            <input id="NewNum" type="text">
+        </div>
+        <div class="inp">
+            <p><b>NewPassword</b></p>
+            <input id="NewPass" type="password">
+        </div><br>
+        <button class="share" onclick="update()">UPDATE PROFILE</button>
+
+
+    </div>
+    <div id="Refer"><br><br>
+        <div onclick="nonback()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br><br><br>
+        <div class="img"><img src="refer2.png"> </div><br>
+        <div class="minty">
+            <h1>Earn #1,000.00 per referral.</h1>
+            <p>You get a #1,000.00 referral bonus instantly<br>
+                as soon as you friends signup withyour <br>
+                referral code on PiggyVest
+            </p>
+        </div><br><br>
+        <hr><br><br>
+        <b class="img">Copy Your Referral Message & Code</b><br>
+        <div class="message">
+            I use PiggyBank to save & invest securely. Signup
+            with my referral code <b id="show">876545</b> and get #1,000.00 to
+            start your own banking journey
+        </div><br>
+        <button class="th" onclick="referrals()">SEE REFERRALS</button>
+
+
+
+
+    </div>
+    <div id="Referrals"><br><br>
+        <div onclick="noback()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br>
+        <b class="chocho">Referral History</b><br>
+        <div class="summry">
+            <div>
+                <b>Earn Money</b><br><br>
+                <b id="tot">#0</b>
+            </div>
+            <div>
+                <b>Invitees</b><br><br>
+                <b id="tit">0</b>
+            </div>
+        </div><br>
+        <b class="chocho">Referrals</b><br>
+        <div class="infoss">
+            <b>Fullname</b>
+            <b>Earnings</b>
+            <!-- <b>Email Address</b> -->
+            <b>Registration Date</b>
+        </div>
+        <div  id="inff"><br>
+
+        </div>
+
+
+
+
+
+
+    </div>
+    
+</body>
+<script src="profile.js"></script>
+</html>

@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.bodd1{
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(4, 93,212);
+}
+#ppt{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.quick{
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color:rgb(4, 93,212);
+    border: 1px solid black;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+.navv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.icofont-refresh{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.fil{
+    /* display: flex; */
+    margin-top: 15px;
+    width: 100%;
+    height: 102px;
+    border: 1px solid black;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    border: none;
+}
+.cho{
+    display: flex;
+}
+.fil::-webkit-scrollbar{
+    width: 1px ;
+    height: 1px;
+}
+.ui{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-width: 230px;
+    /* max-width: 250px; */
+    height: 78px;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    background-color: rgb(13, 96, 216); 
+    border: none;  
+}
+.bal{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.bal p{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bal b {
+    font-size: 24px;
+    color: white;
+}
+
+.ui i{
+    font-size: 40px;
+    margin-top: 13px;
+    color: white;
+}
+#mar{
+    margin-left: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-width: 230px;
+    /* max-width: 250px; */
+    height: 78px;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    /* background-color: rgb(13, 96, 216);  */
+    border: none;   
+}
+.sent{
+    background-color: rgb(121, 19, 229);
+}
+#mar i{
+    font-size: 40px;
+    margin-top: 13px;
+    color: white;
+}
+.recieved{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.card{
+    background-color: chartreuse;
+}
+.airtime{
+    background-color: darkgoldenrod;
+}
+.com{
+    font-size: 12px;
+    padding-top: 20px;
+}
+#ev{
+    margin-top: 10px;
+    width: 350px;
+}
+.ban{
+    margin: 6px 0px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    padding-top: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+#ban{
+    margin-top: 10px;
+}
+.ban a{
+    margin-top: 7px;
+    font-size: 15px;
+}
+.ban1{
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid blue;
+    background: none;
+    border-radius: 100%;
+}
+.bany{
+    margin: 6px 0px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+     
+}
+.bany div{
+    font-size: 16px;
+}
+.icofont-like{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.icofont-lock{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.ico{
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+.downnav{
+    padding: 12px;
+    position:sticky;
+    top: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+}
+#home i{
+    color: rgb(4, 93,212);
+}
+#home{
+    color: rgb(4, 93,212);
+}
+.downnav button{
+    font-size: 15px;
+    border: none;
+    background: none;
+}
+.downnav button i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.bodd{
+    padding-right: 12px;
+    max-height: 760px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.bodd::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+}
+#play{
+    margin-left: 64px;
+}
+#fine{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#addcash{
+
+    width:94%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.icofont-simple-left{
+    font-size: 25px;
+    border: none;
+    background: none;
+}
+.wah{
+    font-size: 25px;
+    text-align: center;
+}
+.bank{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 100%;
+    color: blue;
+    border-color: blue;
+    background-color: lightblue;
+}
+.banky{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 100%;
+    color: blue;
+    border:none;
+    background-color: lightblue;
+
+}
+.bank1{
+    width: 97%;
+    height: 65px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    border: none;
+    background-color: lightblue;
+}
+#back{
+    border: none;
+    background: none;
+}
+.wr{
+    width: 93%;
+    height: 300px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border: none;
+    /* display: flex; */
+
+}
+.wrr{
+    display: flex;
+}
+.wr b{
+    padding-top: 10px;
+}
+.bank1 p{
+    margin-left: 10px;
+}
+.bank1 b{
+    font-size: 19px;
+}
+.ov{
+    display: flex;
+    justify-items: space-evenly;
+}
+.ov i{
+    margin-top: 10px;
+    font-size: 30px;
+}
+#bankT{
+    width:94%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    background-color: white;
+    position: absolute;
+    overflow-y: hidden;
+    overflow-x:hidden ;
+    visibility: hidden;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+    font-family: sans-serif;
+}
+.sto{
+    overflow-y: hidden;
+    overflow-x:hidden ;
+
+}
+.wr p{
+    margin-left: 10px;
+}
+.share{
+    width: 98%;
+    height: 60px;
+    font-size: 21px;
+    font-weight: 700;
+    border: 1PX solid black;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#topup{
+    width:94%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: -1500px;
+    transition: 1s;
+    font-family: sans-serif;
+}
+.amt{
+    font-size: 23px;
+    width: 90%;
+    padding-left: 13px;
+    padding-top: 10px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.amt input{
+    height:40px ;
+    width: 90%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+#logg{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.ei{
+    width: 93%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+}
+.jin{
+    margin-left: 10px;
+    font-size: 14px;
+}
+@media (max-width: 390px) {
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .name{
+        width: 300px;
+    }
+    .create{
+        width: 335px;
+    }
+}
+@media (max-width: 375px) {
+   .bodd{
+    max-height: 580px;
+   }
+   #play{
+    margin-left: 30px;
+   }
+}
+@media (width: 414px) {
+    .bodd{
+        max-height: 810px;
+       }
+    
+}
+@media (width: 412px) {
+    .bodd{
+        max-height: 810px;
+       }
+    
+}
+@media (width: 360px) {
+    .bodd{
+        max-height: 650px;
+       }
+    
+}
+@media (width: 540px) {
+    .bodd{
+        max-height: 640px;
+       }
+    
+}
+@media (width: 820px) {
+    .bodd{
+        max-height: 1100px;
+       }
+              #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 98%;
+    }
+    #bankT{
+        width: 98%;
+    }
+}
+@media (width: 768px) {
+    .bodd{
+        max-height: 920px;
+       }
+       #addcash{
+        width: 98%;
+    }
+    #bankT{
+        width: 98%;
+    }
+    
+}
+@media (width: 912px) {
+    .bodd{
+        max-height: 1280px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+   
+    
+}
+@media (width: 1280px) {
+    #bodd{
+        max-height: 700px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+    #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+    
+}
+@media (width: 1024px) {
+    #bodd{
+        max-height: 520px;
+       }
+       #fine{
+        margin-right: 700px;
+       }
+       #addcash{
+        width: 99%;
+    }
+    #bankT{
+        width: 99%;
+    }
+}
+@media (max-width: 1686px) {
+    #body{
+        width: 100%;
+    }
+    
+}
+

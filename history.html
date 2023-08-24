@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+    <title>Transaction</title>
+</head>
+<body>
+    <div class="bodd"><br>
+        <div>
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div>
+        <p class="wah">Transactions</p>
+        
+        <div class="bank1" onclick="details()">
+            <button class="bank">
+                <i id="rcs" class="icofont-swoosh-down"></i>
+            </button>
+            <div class="ov">
+            <div><b id="rcs">money Recieved</b><br>
+                <br><a class="date"><c id="TT">Aug 8th 23:46</c> - REGISTRATION BONUS</a></div>
+            <div class="min">
+                <b id="rcs">+ #500,000.00</b><br>
+                <a>successful</a>
+            </div>
+            </div>
+        </div><br>
+        <div id="tephis">
+        <!-- <div class="bank1"> -->
+            
+        <!-- </div> -->
+        </div>
+        <div id="trans">
+
+        </div>
+
+
+
+        
+
+    </div>
+    <div class="downnav1">
+        <div class="downnav">
+        <div onclick="homey()">
+            <button ><i class="icofont-home"></i><br>Home</button>
+        </div>
+        <div onclick="transfer()">
+            <button><i class="icofont-refresh"></i><br>Transfer</button>
+        </div>
+        <div>
+            <button id="home"><i class="icofont-history"></i><br>Transactions</button>
+        </div>
+        <div onclick="settings()">
+            <button><i class="icofont-ui-settings"></i><br>settings</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="bankT"><br>
+        <div onclick="backy()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div>
+        <p class="wah">Transaction Details</p><br>
+        <div class="details">
+            <div>
+            <button><i class="icofont-ui-v-card"></i></button> <a>Registration Bonus</a><br><br>
+            Order amount
+            </div>
+            <div class="wee">
+                <b>+#500,000.00</b><br><br>
+                <a class="a">#500,000.00</a>
+            </div>
+        </div><br><br>
+        <center><button id="dt">Aug 5th, 17:58</button></center><br><br>
+        <div class="details">
+            <div>
+            Status<br><br>
+            VAT<br><br>
+            Account name<br><br>
+            Bank name<br><br>
+            Account number<br><br>
+            Paid with<br><br>
+            SessionID
+            </div>
+            <div class="wee">
+                SUCCESS<br><br>
+                #0.00<br><br>
+                <c id="Name">ADEPOJU TOLUWALASE</c><br><br>
+                PiggyBank<br><br>
+                706566546<br><br>
+                nill<br><br>
+                53454544546474474474
+            </div>
+        </div>
+     
+                <button class="share">Share Receipt</button>
+
+
+        </div>
+        
+
+    </div>
+    <div id="bankTy"><br>
+        <div onclick="back()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br><br>
+        <p class="wah">Transaction Details</p><br>
+        <div class="details">
+            <div>
+            <button><i class="icofont-ui-v-card"></i></button> <a id="receipt-transaction-type"></a><br><br>
+            Order amount
+            </div>
+            <div class="wee">
+                <b id="wei">#<c id="receipt-amount">#500,000</c>.00</b><br><br>
+                <a class="a">#<c id="receipt-at">500,000</c>.00</a>
+            </div>
+        </div><br><br>
+        <center><button id="dty">Aug 5th, 17:58</button></center><br><br>
+        <div class="details">
+            <div>
+            Status<br><br>
+            VAT<br><br>
+            Sender<br><br>
+            Recipient<br><br>
+            Recipient Account<br><br>
+            Remark<br><br>
+            Sender Account<br><br>
+            Paid with<br><br>
+            SessionID
+            </div>
+            <div class="wee">
+                SUCCESS<br><br>
+                #0.00<br><br>
+                <c id="sender-name">ADEPOJU TOLUWALASE</c><br><br>
+                <c id="receipient-name"></c><br><br>
+                <c id="receipient-account"></c><br><br>
+                <c id="usedfor">nill</c><br><br>
+                <c id="sender-account"></c><br><br>
+                Balance Payment<br><br>
+                <c id="reference">53454544546474474474</c>
+            </div>
+        </div>
+     
+                <button class="share" onclick="openPDFImageModal()">Share Receipt</button>
+
+
+        </div>
+        
+
+    </div>
+
+    <div id="bankTyy"><br>
+        <div onclick="backi()">
+            <button class="back"><i class="icofont-simple-left"></i></button> 
+        </div><br><br>
+        <p class="wah">Transaction Details</p><br>
+        <div class="details">
+            <div>
+            <button><i class="icofont-ui-v-card"></i></button> <a id="receipt-transaction-type"></a><br><br>
+            Order amount
+            </div>
+            <div class="wee">
+                <b id="wei">#<c id="receipt-amounty">#500,000</c>.00</b><br><br>
+                <a class="a">#<c id="receipt-aty">500,000</c>.00</a>
+            </div>
+        </div><br><br>
+        <center><button id="dtyy">Aug 5th, 17:58</button></center><br><br>
+        <div class="details">
+            <div>
+            Status<br><br>
+            Operator<br><br>
+            Phone number<br><br>
+            Paid with<br><br>
+            SessionID
+            </div>
+            <div class="wee">
+                SUCCESS<br><br>
+                <c id="operator">#0.00</c><br><br>
+                <c id="numb">ADEPOJU TOLUWALASE</c><br><br>
+                Balance Payment<br><br>
+                <c id="referencey">53454544546474474474</c>
+            </div>
+        </div>
+     
+                <button class="share" onclick="openPDFImageModal()">Share Receipt</button>
+
+
+        </div>
+        
+
+    </div>
+
+
+
+    </div>
+
+
+
+    
+</body>
+<script src="history.js"></script>
+</html>

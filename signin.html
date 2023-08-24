@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggySignUp</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div id="body">
+        <div id="prmt">
+            <h2 id="head">Empty Field</h2>
+            <p id="message">Please fill in your Email or Phone Number and retry </p><br>
+            <button onclick="okay()">Ok</button>
+        </div>
+        <div id="prmt1">
+            <h2>Login Sucessful</h2>
+            <p>You have succuessfully login to your PiggyVest account </p><br>
+            <button onclick="okayy()">Ok</button>
+        </div>
+        </div>
+    <div class="fill">
+        <div class="logo">
+            <img src="logo1.png">
+        </div>
+        <div class="contentinfo">
+            <div class="head">
+                <h2>Login to your account</h2>
+                <a>Securely login to your PiggyVest</a>
+            </div>
+            <div class="sec">
+                <b>Email or Phone Number</b><br>
+                <input id="Email" type="text" placeholder="Email or Phone Number" class="name">
+            </div>
+            <div class="sec">
+                <b>Password</b><br>
+                <input id="Password" type="password" placeholder="Password" class="name">
+            </div>
+            <button class="create" onclick="login()">LOG IN</button>
+
+        </div>
+        <div class="back">
+            Dont have an account? <b id="ref" onclick="reff()">signup</b>
+        </div>
+        <div class="back" id="back">
+            Forgot Password?
+        </div>
+        
+    </div>
+    
+</body>
+<script src="signin.js"></script>
+</html>

@@ -1,0 +1,476 @@
+body{
+    font-family: sans-serif;
+    padding: 15px;
+}
+.icofont-simple-left{
+    font-size: 25px;
+}
+.wah{
+    font-size: 22px;
+    text-align: center;
+}
+.hd{
+    display: flex;
+    justify-content: space-between;
+}
+.hd img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.hd #c{
+    margin-top: 15px;
+
+}
+.check{
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: white;
+    background-color: white;
+
+}
+.hd div{
+    display: flex;
+}
+.hd i{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.hd button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: lightblue;
+    border: none;
+}
+#user{
+    color: white;
+    font-size: 20px;
+}
+.hd input{
+    outline: none;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 800;
+    border: none;
+}
+.cash{
+    width: 94%;
+    height: 45vh;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top:30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 12px;
+    /* background-color: lightblue; */
+}
+.cash button{
+    width: 104px;
+    border-radius: 5px;
+    border: none;
+    height: 100px;
+    background-color: lightgray;
+}
+.cash b{
+    font-size: 20px;
+    font-weight: 800;
+}
+.cash a{
+    color: blue;
+}
+.but{
+    margin-top: 10px;
+}
+#pay{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-size: 18px;
+    color: white;
+}
+.ppt{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding: 15px 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.ppt input{
+    outline: none;
+    width: 59%;
+    font-size: 23px;
+    font-weight: 700;
+    /* border: 1px solid black; */
+    border: none; 
+}
+.ppt b{
+    font-size: 28px;
+}
+.dop{
+    position: absolute;
+    top: 220px;
+    width: 91%;
+    left: 20px;
+    height: 49vh;
+    border: 1px solid black;
+    border-color: white;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+.net{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.dop1{
+    margin: 20px;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.dop2{
+    display: flex;
+    justify-content: space-between;
+}
+.dop2 input{
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+}
+.dop3{
+    display: flex;
+}
+.dop3 p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.confirm{
+    position: absolute;
+    bottom: 0px;
+    width: 92.5%;
+    left: 0px;
+    height: 60vh;
+    /* border: 1px solid black; */
+    /* border-color: white; */
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    display: none;
+}
+.confirm .wah b{
+    font-size: 30px;
+    font-weight: 700;
+}
+.mint button{
+    background: none;
+    border: none;
+
+}
+.confirm .ico{
+    background: none;
+    border: none;
+}
+.soi{
+    display: flex;
+    justify-content: space-between;
+}
+.soi img{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.fil{
+    text-align: end;
+}
+.fyb{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: lightgray;
+    border: none;
+}
+.fyb button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: lightblue;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+.fyb i{
+    font-size: 23px;
+}
+.jin{
+    padding-top: 15px;
+}
+.con{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(4, 93, 212);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.soil{
+    width: 95%;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    display: none;
+}
+.fee{
+    width: 88%;
+    border-radius: 15px;
+    height: 100px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ov{
+    display: flex;
+    justify-items: space-between;
+}
+.cce{
+    margin-top: 13px;
+}
+.conf{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: green;
+    color: white;
+}
+#dd{
+    font-size: 10px;
+}
+.dil{
+    display: flex;
+    justify-content: space-between;
+}
+#dil{
+    margin-top: 10px;
+}
+.pin{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    outline: rgb(4, 93, 212);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15px;
+}
+.pin1{
+    display: flex;
+    justify-content: center;
+}
+.pin2{
+    margin: auto;
+    text-align: center;
+}
+.nums{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+#nums{
+    border: none;
+    background: none;
+}
+.nums1{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.fr{
+    color: blue;
+}
+#trvv{
+    width: 98%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: px;
+    padding-bottom: 20px;
+    top: 0;
+    right: 0px;
+    display: none;
+    transition: 1s;
+
+    /* display: none; */
+
+}
+.top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.top div{
+    text-align: center;
+}
+.top p{
+    font-size: 20px;
+}
+.top button{
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    color: blue;
+    background-color: lightblue;
+}
+.addcash b{
+    font-size: 20px;
+}
+.dy{
+    font-size: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+#bodiu{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+
+}
+#bodi12{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    display: none;
+    overflow-x: hidden;
+}
+#prmto12{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    border: 5px solid;
+    padding: 30px;
+    font-family: sans-serif;
+    color: red;
+    background-color: white;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+      display: none;  
+}
+#prmto12 button{
+    font-size: 23px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color:rgb(6, 40, 99) ;
+    border: none;
+}
+#bod211{
+    width: 100%;
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.5);
+    /* background-color: green; */
+    display: none;
+    overflow-x: hidden;
+    z-index: 9;
+}
+#ldd{
+    /* background-color: yellow; */
+    position: absolute;
+    left:170px ;
+    top: 310px;
+    animation-name: ldd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    display: none;
+    font-size: 70px;
+    color: white;
+}
+.icofont-ui-laoding{
+    font-size: 70px;
+    color: white;
+}
+.shr{
+    height: 80px;
+    border: none;
+    background-color: lightgray;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.fr{
+    color: blue;
+}
+.shr i{
+    font-size: 25px;
+    color: rgb(117, 63, 246);
+}
+@keyframes ldd{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
